@@ -27,11 +27,13 @@ h1{
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     font-size: 22px;
+    /* position: fixed; */
 }
 
 nav li{
     display: inline-block;
     padding: 15px;
+    /* position: fixed; */
 }
 
 .navegacion a{
@@ -40,6 +42,7 @@ nav li{
     font-style: normal;
     text-decoration: none;
     padding: 10px;
+    /* position: fixed; */
 }
 
 .navegacion ul{
@@ -135,6 +138,19 @@ nav li{
     
 }
 
+.form-label{
+    color: white;
+}
+
+.container mt-5{
+    /* color: white; */
+    background-color: #290e34f6;
+}
+
+.body-formulario{
+    background-color: #290e34f6;
+}
+
 #boton-submit{
     font-size: 40px;
     background-color: #5c5714;
@@ -146,6 +162,9 @@ nav li{
     padding: 10px;
 }
 
+.btn btn-primary{
+    background-color: #5c5714;
+}
 /* ------------ SERVICIOS-------------- */
 .serv-main{
     display: flex;
@@ -195,7 +214,6 @@ nav li{
 }
 
 /* Carrousel */
-/* Achica la caja del carrousel y hace que las fechas queden superpuestas con las imagenes */
 .carousel{
     width: auto;
     height: auto;
@@ -203,7 +221,7 @@ nav li{
 
 }
 
-/* Quitando la clase w-100 de todas las imagenes y sumando esta altura, le da el mismo alto a todas las imagenes para que queden parejas */
+
 .carousel-item img{
     /* height: 500px; */
     height: 1300px;

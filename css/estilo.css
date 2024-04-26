@@ -276,6 +276,11 @@ nav li{
     background-size: cover;
 }
 
+.body-galeria{
+    background-color: #290e34f6;
+}
+
+
 
 #galeria .col-lg-4 {
     margin:0 !important;
@@ -290,6 +295,7 @@ nav li{
 #galeria img:hover {
     border: 5px solid ;
 }
+
 
 /*MEDIA QUERYS*/
 /*Estrategia Mobile First → Min-width*/

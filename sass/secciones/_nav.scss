@@ -1,0 +1,28 @@
+/* -------MENÚ DE NAVEGACIÓN -------- */
+.navegacion{
+    background-color: #290e34f6;
+    /* font-family: sans-serif; */
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    /* position: fixed; */
+}
+
+nav li{
+    display: inline-block;
+    padding: 15px;
+    /* position: fixed; */
+}
+
+.navegacion a{
+    color: white;
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px;
+    /* position: fixed; */
+}
+
+.navegacion ul{
+    list-style-type: none
+}

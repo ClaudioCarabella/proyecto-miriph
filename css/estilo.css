@@ -1,348 +1,68 @@
-/* Tipografias Web */
-/* font-family: "Bebas Neue", sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-/*--- RESETEO ---*/
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #290e34f6;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(41, 14, 52, 0.9647058824);
+  box-sizing: border-box;
 }
 
+/* Tipografias Web */
+/* font-family: "Bebas Neue", sans-serif; */
 /* Selector de tipo etiqueta */
-h1{
-    color: rgb(255, 255, 255);
-    background-color: #290e34f6;
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
-    padding: 30px;
-   
+h1 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(41, 14, 52, 0.9647058824);
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  padding: 30px;
 }
 
 /* -------MENÚ DE NAVEGACIÓN -------- */
-.navegacion{
-    background-color: #290e34f6;
-    /* font-family: sans-serif; */
-    font-family: "Bebas Neue", sans-serif;
-    text-transform: uppercase;
-    font-size: 22px;
-    /* position: fixed; */
+.navegacion {
+  background-color: rgba(41, 14, 52, 0.9647058824);
+  /* font-family: sans-serif; */
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  /* position: fixed; */
 }
 
-nav li{
-    display: inline-block;
-    padding: 15px;
-    /* position: fixed; */
+nav li {
+  display: inline-block;
+  padding: 15px;
+  /* position: fixed; */
 }
 
-.navegacion a{
-    color: white;
-    font-weight: bolder;
-    font-style: normal;
-    text-decoration: none;
-    padding: 10px;
-    /* position: fixed; */
+.navegacion a {
+  color: white;
+  font-weight: bolder;
+  font-style: normal;
+  text-decoration: none;
+  padding: 10px;
+  /* position: fixed; */
 }
 
-.navegacion ul{
-    list-style-type: none
+.navegacion ul {
+  list-style-type: none;
 }
 
-.fondo-main{
-    /* background-image: url('../resources/Bodas2.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #290e34f6;
-    padding: 10px;
-}    
-
-.fondo-main img{
-    height: 1300px;
-    width: auto;
-    border-radius: 15px;
-
-}
-
-
-
-
-/*---------- IMG FONDO ----------*/
-
-.fondo-papel{
-    background-image: url('../resources/SobreMi.jpg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: right;
-    /* background-color: #290e34f6; */
-    color: white;
-    width: 2000px;
-    height: 1000px;
-    
-    
-}
-.fondo-papel h3{
-    /* border: solid 5px #000006; */
-    display: block;
-    width: 500px;
-    /* height: 170px; */
-    /* padding: 60px; */
-    /* background-color: #290e34f6; */
-    color: white;
-    font-family: "Bebas Neue", sans-serif;
-    margin: 15px;
-}
-
-/*------- SOBRE MI ----------*/
-/* Etiqueta en bloque */
-.fondo-papel p{
-    /* border: solid 5px #000006; */
-    display: block;
-    width: 500px;
-    height: 170px;
-    /* padding: 60px; */
-    /* background-color: #290e34f6; */
-    color: white;
-    font-family: "Bebas Neue", sans-serif;
-    margin: 25px;
-}
 /* Etiqueta en linea */
-.redes{
-    background-color: #290e34f6;
+.redes {
+  background-color: rgba(41, 14, 52, 0.9647058824);
 }
 
-.redes a{
-    border-radius: 2px #be9913 ;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-}
-.redes img{
-    height: 50px;
-    width: 50px;
-    /* border: dotted 3px #211353; */
-    background-color: #290e34f6;
+.redes a {
+  border-radius: 2px #be9913;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
 }
 
-
-/*---------FORM --------*/
-
-.form{    
-    display: block;
-    padding: 40px;
-    background-color: #290e34f6;
-}
-.form input{
-    display: block;
-    
-}
-
-.form-label{
-    color: white;
-}
-
-.container mt-5{
-    /* color: white; */
-    background-color: #290e34f6;
-}
-
-.body-formulario{
-    background-color: #290e34f6;
-}
-
-#boton-submit{
-    font-size: 40px;
-    background-color: #5c5714;
-    color: white;
-    border-radius: 15px;
-    height: 20px;
-    width: 50px;
-    font-size: 12px;
-    padding: 10px;
-}
-
-.btn btn-primary{
-    background-color: #5c5714;
-}
-/* ------------ SERVICIOS-------------- */
-.serv-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* border: solid red 3px; */
-    /* min-height: 650px; */
-    align-content: space-around;
-    /* width: 650px; */
-    align-items: center;
-    background-color: #290e34f6;
-}
-
-
-
-.servicios{
-    /* border: gray solid 2px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: sans-serif;
-    /* Eje horizontal, eje vertical, difuminado, extensión */
-    box-shadow: 1px 1px 5px 2px #51515195;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
-}
-.servicios h3{
-    color: white;
-}
-
-
-.servicios img{
-    height: 250px;
-    border-radius: 15px;
-    /* border: dotted 3px #211353; */
-
-}
-/* .servicios button{ */
-.secc-servicios button{    
-    padding: 5px 15px;
-    margin: 15px;
-    border-radius: 15px;
-    background-color: #5c5714;
-    color: white;
-    font-family: sans-serif;
-}
-
-/* hasta aca */
-/*---- Main Interesante ----*/
-.main-serv h1 {
-    color: white;
-    /* background-color: #ff2727; */
-    width: 220px;
-    margin: 10px auto;
-    padding: 5px 16px;
-    /* font-family: "Lato", sans-serif; */
-    text-align: center;
-    font-weight: bolder;
-}
-
-.secc-servicios div {
-    height: 140px;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 10px;
-    height: 600px;
-
-}
-
-.secc-servicios h2 {
-    font-size: 18px;
-    /* background-color: none; */
-
-}
-
-/* url('https://i0.wp.com/www.periodismo.com/wp-content/subid/Las-impactantes-imagenes-del-World-Press-Photo-2024-29.jpg?resize=356%2C364&ssl=1'); */
-/* <img src="../resources/Bodas.jpg" alt="Bodas"> */
-.serv1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Bodas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.serv2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Quince.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.serv3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Books.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.serv4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Eventos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.serv5 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Productos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.body-galeria{
-    background-color: #290e34f6;
-}
-
-
-
-#galeria .col-lg-4 {
-    margin:0 !important;
-    padding: 25px;
-}
-
-#galeria img{
-    width: 100%;
-    height: 600px;
-}
-
-#galeria img:hover {
-    border: 5px solid ;
-}
-
-
-/*MEDIA QUERYS*/
-/*Estrategia Mobile First → Min-width*/
-
-@media (min-width: 601px) {
-    .secc-servicios {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .secc-servicios div {
-        margin: 2px;
-        height: 600px;
-    }
-}
-
-@media (min-width: 768px) {
-    .secc-servicios {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .secc-servicios div {
-        height: 600px;
-    }
-
-}
-
-
-
-
-
-
-/* Carrousel */
-.carousel{
-    width: auto;
-    height: auto;
-    margin: auto;
-
-}
-
-
-.carousel-item img{
-    /* height: 500px; */
-    height: 1300px;
-    width: auto;
-    border-radius: 15px;
-    background-position: center; 
-    
-    
-}
+.redes img {
+  height: 50px;
+  width: 50px;
+  /* border: dotted 3px #211353; */
+  background-color: rgba(41, 14, 52, 0.9647058824);
+}/*# sourceMappingURL=estilo.css.map */

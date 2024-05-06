@@ -24,6 +24,9 @@
     /* border: dotted 3px #211353; */
 
 }
+
+
+
 /* .servicios button{ */
 .secc-servicios button{    
     padding: 5px 15px;
@@ -33,6 +36,12 @@
     color: white;
     font-family: sans-serif;
 }
+
+.secc-servicios img:hover {
+    border: 5px solid ;
+    transform: scale(1.3);
+}
+
 
 /* hasta aca */
 /*---- Main Interesante ----*/
@@ -70,12 +79,14 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Bodas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .serv2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Quince.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 
 .serv3 {

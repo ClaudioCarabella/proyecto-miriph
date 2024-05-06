@@ -154,6 +154,11 @@ nav li {
   font-family: sans-serif;
 }
 
+.secc-servicios img:hover {
+  border: 5px solid;
+  transform: scale(1.3);
+}
+
 /* hasta aca */
 /*---- Main Interesante ----*/
 .main-serv h1 {
@@ -246,10 +251,12 @@ nav li {
 #galeria img {
   width: 100%;
   height: 600px;
+  transition: all 300ms;
 }
 
 #galeria img:hover {
   border: 5px solid;
+  transform: scale(1.3);
 }
 
 /*------- SOBRE MI ----------*/

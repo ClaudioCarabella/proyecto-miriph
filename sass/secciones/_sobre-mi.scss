@@ -1,0 +1,39 @@
+/*------- SOBRE MI ----------*/
+/* Etiqueta en bloque */
+/*---------- IMG FONDO ----------*/
+
+.fondo-papel{
+    background-image: url('../resources/SobreMi.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-color: #290e34f6; */
+    color: white;
+    width: 2000px;
+    height: 1000px;
+    
+    
+}
+.fondo-papel h3{
+    /* border: solid 5px #000006; */
+    display: block;
+    width: 500px;
+    /* height: 170px; */
+    /* padding: 60px; */
+    /* background-color: #290e34f6; */
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 15px;
+}
+
+.fondo-papel p{
+    /* border: solid 5px #000006; */
+    display: block;
+    width: 500px;
+    height: 170px;
+    /* padding: 60px; */
+    /* background-color: #290e34f6; */
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 25px;
+}

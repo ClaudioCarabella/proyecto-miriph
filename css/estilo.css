@@ -63,17 +63,13 @@ nav li {
 }
 
 /* Carrousel */
-.carousel {
-  width: auto;
-  height: auto;
-  margin: auto;
-}
-
 .carousel-item img {
   height: 850px;
   width: 1700px;
   border-radius: 15px;
+  background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 /*---------CONTACTO --------*/
@@ -209,6 +205,7 @@ nav li {
 #galeria img {
   width: 100%;
   height: 600px;
+  object-fit: cover;
   transition: all 300ms;
 }
 
@@ -222,9 +219,10 @@ nav li {
 /*---------- IMG FONDO ----------*/
 .fondo-papel {
   background-image: url("../resources/SobreMi.jpg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   background-color: rgba(41, 14, 52, 0.9647058824);
   color: white;
   width: 2000px;

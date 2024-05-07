@@ -1,19 +1,18 @@
 /* Carrousel */
-.carousel{
-    width: auto;
-    height: auto;
-    margin: auto;
+// .carousel{
+    // width: auto;
+    // height: auto;
+    // margin: auto;
 
-}
+// }
 
 
 .carousel-item img{
     height: 850px; 
-    // height: 1300px;
-    // width: auto;
     width: 1700px;
     border-radius: 15px;
-    background-position: center; 
-    
-    
+    background-size:cover ;
+    background-position:center ; 
+    // object-fit: cover;
+    background-attachment:fixed;
 }

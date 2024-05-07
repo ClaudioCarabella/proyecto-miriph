@@ -4,13 +4,15 @@
 
 .fondo-papel{
     background-image: url('../resources/SobreMi.jpg');
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     background-color: #290e34f6; 
     color: white;
     width: 2000px;
     height: 850px;
+    
     
         p {
             /* border: solid 5px #000006; */

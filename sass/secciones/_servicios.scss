@@ -24,112 +24,111 @@
     /* border: dotted 3px #211353; */
 
 }
-
-
-
-/* .servicios button{ */
-.secc-servicios button{    
-    padding: 5px 15px;
-    margin: 15px;
-    border-radius: 15px;
-    background-color: #5c5714;
-    color: white;
-    font-family: sans-serif;
-}
-
-.secc-servicios img:hover {
-    border: 5px solid ;
-    transform: scale(1.3);
-}
-
-
-/* hasta aca */
-/*---- Main Interesante ----*/
-.main-serv h1 {
-    color: white;
-    /* background-color: #ff2727; */
-    width: 220px;
-    margin: 10px auto;
-    padding: 5px 16px;
-    /* font-family: "Lato", sans-serif; */
-    text-align: center;
-    font-weight: bolder;
-}
-
-.secc-servicios div {
-    height: 140px;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 10px;
-    height: 600px;
-
-}
-
-.secc-servicios h2 {
-    font-size: 18px;
-    /* background-color: none; */
-
-}
-
-/* url('https://i0.wp.com/www.periodismo.com/wp-content/subid/Las-impactantes-imagenes-del-World-Press-Photo-2024-29.jpg?resize=356%2C364&ssl=1'); */
-/* <img src="../resources/Bodas.jpg" alt="Bodas"> */
-.serv1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Bodas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+// --------------SERVICIOS--------------------
+.main-serv {
+    background-color: #290e34f6;
+    h1 {
+        color: white;
+        width: 220px;
+        margin: 10px auto;
+        padding: 5px 16px;
+        /* font-family: "Lato", sans-serif; */
+        text-align: center;
+        font-weight: bolder;
+        
+    }
     
-}
+    .secc-servicios {
+    
+        div {
+            height: 140px;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 10px;
+            height: 600px;
+        
+            h2 {
+                font-size: 18px;
+                /* background-color: none; */
+            }
+            
+        }
+        .serv1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Bodas.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        
+        .serv2 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Quince.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        
+        .serv3 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Books.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .serv4 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Eventos.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .serv5 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Productos.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        button{    
+            padding: 5px 15px;
+            margin: 15px;
+            border-radius: 15px;
+            background-color: #5c5714;
+            color: white;
+            font-family: sans-serif;
+        }
+        img:hover {
+            border: 5px solid ;
+            transform: scale(1.3);
+        }
+        
 
-.serv2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Quince.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
-
-.serv3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Books.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.serv4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Eventos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.serv5 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Productos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    }
 }
 
 /*MEDIA QUERYS*/
 /*Estrategia Mobile First → Min-width*/
 
 @media (min-width: 601px) {
-    .secc-servicios {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .secc-servicios div {
-        margin: 2px;
-        height: 600px;
+    .main-serv{
+        .secc-servicios {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        
+            div {
+                margin: 2px;
+                height: 600px;
+            }
+        }
     }
 }
 
 @media (min-width: 768px) {
-    .secc-servicios {
-        grid-template-columns: repeat(3, 1fr);
+    .main-serv{
+        .secc-servicios {
+            grid-template-columns: repeat(3, 1fr);
+        
+            div {
+                height: 600px;
+            }
+        }
     }
-
-    .secc-servicios div {
-        height: 600px;
-    }
-
 }
 

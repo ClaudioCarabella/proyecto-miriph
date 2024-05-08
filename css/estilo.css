@@ -62,7 +62,6 @@ nav li {
   background-color: rgba(41, 14, 52, 0.9647058824);
 }
 
-/* Carrousel */
 .carousel-item img {
   height: 100%;
   width: 100%;
@@ -245,6 +244,10 @@ nav li {
   color: white;
   font-family: "Bebas Neue", sans-serif;
   margin: 15px;
+}
+
+.principal {
+  background-color: rgba(41, 14, 52, 0.9647058824);
 }
 
 .main-carousel {

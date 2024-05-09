@@ -252,4 +252,7 @@ nav li {
 
 .main-carousel {
   background-color: rgba(41, 14, 52, 0.9647058824);
+  max-width: 100%;
+  max-height: 80%;
+  margin: auto;
 }/*# sourceMappingURL=estilo.css.map */

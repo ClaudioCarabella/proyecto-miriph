@@ -69,6 +69,14 @@ nav li {
   border-radius: 15px;
 }
 
+.carousel-control-prev-icon {
+  color: chartreuse;
+}
+
+.carousel-control-next-icon {
+  color: chartreuse;
+}
+
 /*---------CONTACTO --------*/
 .form {
   display: block;
@@ -133,27 +141,27 @@ nav li {
   /* background-color: none; */
 }
 .main-serv .secc-servicios .serv1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Bodas.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Bodas.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-serv .secc-servicios .serv2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Quince.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Quince.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-serv .secc-servicios .serv3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Books.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Books.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-serv .secc-servicios .serv4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Eventos.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Eventos.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-serv .secc-servicios .serv5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Productos.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Productos.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -161,7 +169,7 @@ nav li {
   padding: 5px 15px;
   margin: 15px;
   border-radius: 15px;
-  background-color: #5c5714;
+  background-color: hsl(306, 90%, 8%);
   color: white;
   font-family: sans-serif;
 }
@@ -215,7 +223,7 @@ nav li {
 /* Etiqueta en bloque */
 /*---------- IMG FONDO ----------*/
 .fondo-papel {
-  background-image: url("../resources/SobreMi.jpg");
+  background-image: url("../resources/SobreMi.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -244,6 +252,29 @@ nav li {
   color: white;
   font-family: "Bebas Neue", sans-serif;
   margin: 15px;
+  font-size: 28px;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 40px;
+  height: 8px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: white;
+  background-clip: padding-box;
+  border-top: 3px solid transparent;
+  border-top-color: black;
+  border-bottom: 3px solid transparent;
+  border-bottom-color: black;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  opacity: 0.8;
+  transition: opacity 0.6s ease;
 }
 
 .principal {

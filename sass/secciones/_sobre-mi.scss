@@ -3,7 +3,7 @@
 /*---------- IMG FONDO ----------*/
 
 .fondo-papel{
-    background-image: url('../resources/SobreMi.jpg');
+    background-image: url('../resources/SobreMi.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,6 +24,8 @@
             color: white;
             font-family: $fuente_sin-serifa;
             margin: 15px;
+            // font-size: 44px;
+            
         }
 
         h3{
@@ -36,8 +38,10 @@
             color: white;
             font-family: $fuente_sin-serifa;
             margin: 15px;
+            font-size: 28px;
         }
     
 }
+
 
 

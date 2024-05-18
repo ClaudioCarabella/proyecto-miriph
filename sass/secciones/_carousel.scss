@@ -33,4 +33,9 @@
     color: chartreuse;
 }
 
-
+.carousel-inner{
+    height: 95vh;
+    // position: relative;
+    width: 100%;
+    overflow: hidden;
+}

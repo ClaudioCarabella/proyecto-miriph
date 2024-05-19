@@ -2,10 +2,11 @@
 // --------------SERVICIOS--------------------
 .main-serv {
     background-color: #290e34f6;
+    padding: 30px;
     h1 {
         color: white;
         width: 220px;
-        margin: 10px auto;
+        margin: auto;
         padding: 5px 16px;
         text-align: center;
         font-weight: bolder;
@@ -20,7 +21,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            padding: 10px;
+            padding: 15px;
             height: 600px;
         
             h2 {

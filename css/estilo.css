@@ -21,11 +21,9 @@ h1 {
 /* -------MENÚ DE NAVEGACIÓN -------- */
 .navegacion {
   background-color: rgba(41, 14, 52, 0.9647058824);
-  /* font-family: sans-serif; */
   font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
   font-size: 22px;
-  /* position: fixed; */
 }
 .navegacion a {
   color: white;
@@ -33,7 +31,6 @@ h1 {
   font-style: normal;
   text-decoration: none;
   padding: 10px;
-  /* position: fixed; */
 }
 .navegacion ul {
   list-style-type: none;
@@ -42,13 +39,12 @@ h1 {
 nav li {
   display: inline-block;
   padding: 15px;
-  /* position: fixed; */
 }
 
 /* Etiqueta en linea */
 .redes {
   background-color: rgba(41, 14, 52, 0.9647058824);
-  min-height: 100vh;
+  min-height: 80px;
   padding: 30px;
 }
 .redes a {
@@ -61,7 +57,6 @@ nav li {
 .redes img {
   height: 50px;
   width: 50px;
-  /* border: dotted 3px #211353; */
   background-color: rgba(41, 14, 52, 0.9647058824);
   padding: 5px;
 }
@@ -102,7 +97,6 @@ nav li {
 }
 
 .container mt-5 {
-  /* color: white; */
   background-color: rgba(41, 14, 52, 0.9647058824);
 }
 
@@ -133,7 +127,6 @@ nav li {
   width: 220px;
   margin: 10px auto;
   padding: 5px 16px;
-  /* font-family: "Lato", sans-serif; */
   text-align: center;
   font-weight: bolder;
 }
@@ -151,7 +144,6 @@ nav li {
   text-align: center;
   border-radius: 15px;
   background-color: hsl(306, 90%, 8%);
-  /* background-color: none; */
 }
 .main-serv .secc-servicios .serv1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../resources/Bodas.webp);
@@ -233,8 +225,6 @@ nav li {
 }
 
 /*------- SOBRE MI ----------*/
-/* Etiqueta en bloque */
-/*---------- IMG FONDO ----------*/
 .fondo-papel {
   background-image: url("../resources/SobreMi.webp");
   background-size: cover;
@@ -255,12 +245,8 @@ nav li {
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 .fondo-papel h3 {
-  /* border: solid 5px #000006; */
   display: block;
   width: 500px;
-  /* height: 170px; */
-  /* padding: 60px; */
-  /* background-color: #290e34f6; */
   color: white;
   font-family: "Bebas Neue", sans-serif;
   margin: 25px;

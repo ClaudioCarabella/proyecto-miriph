@@ -1,13 +1,10 @@
 /*------- SOBRE MI ----------*/
-/* Etiqueta en bloque */
-/*---------- IMG FONDO ----------*/
 
 .fondo-papel{
     background-image: url('../resources/SobreMi.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    // background-attachment: fixed;
     background-color: #290e34f6; 
     color: white;
     width: 100vw;
@@ -15,12 +12,8 @@
    
     
         p {
-            // border: solid 5px #000006; 
             display: block;
             width: 500px;
-            // height: 170px;
-            // padding: 5px; 
-            // background-color: #290e34f6; 
             color: white;
             font-family: $fuente_sin-serifa;
             margin: 30px;
@@ -29,12 +22,8 @@
         }
 
         h3{
-            /* border: solid 5px #000006; */
             display: block;
             width: 500px;
-            /* height: 170px; */
-            /* padding: 60px; */
-            /* background-color: #290e34f6; */
             color: white;
             font-family: $fuente_sin-serifa;
             margin: 25px;

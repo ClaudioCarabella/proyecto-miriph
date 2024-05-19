@@ -50,14 +50,22 @@
          margin: 2px;
          width: 466px;
          }
+
+      
    }
 }
 
-// @media (min-width: 1520px) {
-//     .fondo-papel{
-//          margin: 2px;
-//          width: 70vw;
-//          max-width: 80vw;
-//    }
-// }
 
+
+@media (max-width: 535px) {
+    .fondo-papel{
+        h3{
+            width: 250px;
+            font-size: 18px;
+        } 
+        p{
+            width: 250px;
+            font-size: 14px;
+         }
+   }
+}

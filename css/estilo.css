@@ -240,19 +240,19 @@ nav li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-color: rgba(41, 14, 52, 0.9647058824);
   color: white;
+  width: 100vw;
   height: 850px;
 }
 .fondo-papel p {
-  /* border: solid 5px #000006; */
   display: block;
   width: 500px;
-  height: 170px;
   color: white;
   font-family: "Bebas Neue", sans-serif;
-  margin: 15px;
+  margin: 30px;
+  font-size: 21px;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 .fondo-papel h3 {
   /* border: solid 5px #000006; */
@@ -263,10 +263,17 @@ nav li {
   /* background-color: #290e34f6; */
   color: white;
   font-family: "Bebas Neue", sans-serif;
-  margin: 15px;
+  margin: 25px;
   font-size: 28px;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
+@media (min-width: 466px) {
+  .fondo-papel div {
+    margin: 2px;
+    width: 466px;
+  }
+}
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;

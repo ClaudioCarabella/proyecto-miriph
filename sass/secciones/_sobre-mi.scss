@@ -7,25 +7,25 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-color: #290e34f6; 
     color: white;
-    // width: 2000px;
+    width: 100vw;
     height: 850px;
    
     
         p {
-            /* border: solid 5px #000006; */
+            // border: solid 5px #000006; 
             display: block;
             width: 500px;
-            height: 170px;
-            // padding: 60px; 
+            // height: 170px;
+            // padding: 5px; 
             // background-color: #290e34f6; 
             color: white;
             font-family: $fuente_sin-serifa;
-            margin: 15px;
-            // font-size: 44px;
-            
+            margin: 30px;
+            font-size: 21px;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
         }
 
         h3{
@@ -37,11 +37,27 @@
             /* background-color: #290e34f6; */
             color: white;
             font-family: $fuente_sin-serifa;
-            margin: 15px;
+            margin: 25px;
             font-size: 28px;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
         }
     
 }
 
+@media (min-width: 466px) {
+    .fondo-papel{
+         div{
+         margin: 2px;
+         width: 466px;
+         }
+   }
+}
 
+// @media (min-width: 1520px) {
+//     .fondo-papel{
+//          margin: 2px;
+//          width: 70vw;
+//          max-width: 80vw;
+//    }
+// }
 
